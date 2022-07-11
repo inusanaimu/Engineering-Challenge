@@ -1,4 +1,5 @@
 import Filter from './Filter'
+
 function FilterBar() {
   return (
     <>
@@ -7,6 +8,7 @@ function FilterBar() {
         <Filter type='Date' />
         <Filter type='Status' />
         <Filter type='Range' />
+        <Filter type='Foreign' />
       </div>
     </>
   )

@@ -1,6 +1,8 @@
 const handleClick = (e) => {
   // e.preventdefault()
-  if (e === 'Range') alert('Just to show more option')
+  if (e === 'Range' || e === 'Foreign') {
+    return alert('Just to show more options can be added')
+  }
   console.log(e)
 }
 
