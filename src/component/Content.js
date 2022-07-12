@@ -1,7 +1,11 @@
 const DateComponent = (props) => {
   const date = new Date(props.date)
 
-  return <h4 className=' p-2 border'>{date.toLocaleDateString()} </h4>
+  return (
+    <h4 className=' p-2 border hover:border-slate-400'>
+      {date.toLocaleDateString()}
+    </h4>
+  )
 }
 
 const Transaction = (props) => {
@@ -9,7 +13,7 @@ const Transaction = (props) => {
   return (
     <>
       <section className=' grid grid-cols-10 gap-3 my-2'>
-        <aside className='p-2 border col-span-4 '>
+        <aside className='p-2 border hover:border-slate-400 col-span-4 '>
           <div>
             <b>Name:</b> <span>{name}</span>
           </div>
@@ -20,7 +24,7 @@ const Transaction = (props) => {
             <b>Status:</b> <span>{status}</span>
           </div>
         </aside>
-        <div className=' p-2 col-span-6 border '>
+        <div className=' p-2 col-span-6 border hover:border-slate-400 '>
           {' '}
           Transaction Details <br /> Ref No: {id}
           {user_id}
@@ -36,7 +40,7 @@ function Content(props) {
   const { due_on } = props.data
   return (
     <>
-      <div>
+      <div className=' hover:bg-slate-100   '>
         <DateComponent date={due_on} />
         <Transaction props={props.data} />
       </div>
