@@ -31,7 +31,7 @@ function Body() {
       {myData.map((data) => {
         return (
           <>
-            <Content key={data.user_id} data={data} />
+            <Content key={data['user_id']} data={data} />
           </>
         )
       })}
