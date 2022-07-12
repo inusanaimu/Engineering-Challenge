@@ -6,7 +6,7 @@
     "due_on": "2022-07-31T00:00:00.000+05:30",
     "status": "pending",
     "type": "p2p",
-    "name": "Mary"
+    "name": "J. Mary"
   },
   {
     "id": 1990,
@@ -15,7 +15,7 @@
     "due_on": "2022-07-31T00:00:00.000+05:30",
     "status": "pending",
     "type": "b2p",
-    "name": "Susan"
+    "name": "I. Susan"
   },
   {
     "id": 1989,
@@ -24,7 +24,7 @@
     "due_on": "2022-07-11T00:00:00.000+05:30",
     "status": "pending",
     "type": "p2b",
-    "name": "John"
+    "name": "P. John"
   },
   {
     "id": 1988,
@@ -33,7 +33,7 @@
     "due_on": "2022-07-28T00:00:00.000+05:30",
     "status": "pending",
     "type": "b2b",
-    "name": "Musa"
+    "name": "A. Musa"
   },
   {
     "id": 1987,
@@ -42,7 +42,7 @@
     "due_on": "2022-07-31T00:00:00.000+05:30",
     "status": "pending",
     "type": "p2p",
-    "name": "Bayo"
+    "name": "F. Bayo"
   },
   {
     "id": 1986,
@@ -51,7 +51,7 @@
     "due_on": "2022-07-20T00:00:00.000+05:30",
     "status": "pending",
     "type": "b2p",
-    "name": "Musa"
+    "name": "M. Ibrahim"
   },
   {
     "id": 1985,
@@ -60,7 +60,7 @@
     "due_on": "2022-08-07T00:00:00.000+05:30",
     "status": "completed",
     "type": "p2b",
-    "name": "Emeka"
+    "name": "C. Emeka"
   },
   {
     "id": 1984,
@@ -69,7 +69,7 @@
     "due_on": "2022-08-08T00:00:00.000+05:30",
     "status": "completed",
     "type": "b2b",
-    "name": "Moses"
+    "name": "S. Moses"
   },
   {
     "id": 1983,
@@ -78,7 +78,7 @@
     "due_on": "2022-08-06T00:00:00.000+05:30",
     "status": "completed",
     "type": "p2p",
-    "name": "Shegun"
+    "name": "O. Shegun"
   },
   {
     "id": 1982,
@@ -87,6 +87,6 @@
     "due_on": "2022-07-19T00:00:00.000+05:30",
     "status": "pending",
     "type": "b2p",
-    "name": "Muhammed"
+    "name": "I. Muhammed"
   }
 ]
